@@ -15,4 +15,6 @@ use Illuminate\Support\Facades\Route;
 
     Route::post('/appointments/book', [UserController::class, 'book']);
 
+
+    //Route::post('/appointments/book', [UserController::class, 'book']);
 });
