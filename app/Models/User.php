@@ -60,4 +60,8 @@ public function doctorAppointments()
 {
     return $this->hasMany(Appointment::class, 'doctor_id');
 }
+//public function doctorAppointments()
+// {
+//     return $this->hasMany(Appointment::class, 'doctor_id');
+// }
 }
